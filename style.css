@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 62.5%;
+}
+header
+{ 
+    padding: 0 3.3rem 0 3.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 9.3rem;
+}
+header h1 {
+    color: #B52184;
+    font-family: "Mulish", sans-serif;
+    text-align: center;
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 900;
+    margin-top: 1.7rem;
+}
+header h2 {
+    color: #312D64;
+    text-align: center;
+    font-family: "Mulish", sans-serif;
+    font-size: 2.0rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 3.5rem;
+}
+main {
+    background: linear-gradient(96deg, #343193 0%, #302C63 99.68%);
+    
+}
+.section {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 5rem;
+    padding: 5.2rem 3.9rem 5.2rem 3.9rem;
+    width: 43.0rem;;
+}
+
+.quadrados{
+    display: flex;
+    flex-direction: column;
+    padding: 2.64rem;
+    background-color: white;
+    width: 35.2rem;
+    margin: 0 auto;
+    border-radius: 1.9rem;
+}
+
+.quadrados img{
+    width: 8.0rem;
+    height: 8.0rem;
+}
+.quadrados h1{
+    color: #B52184;
+    font-family: "Mulish", sans-serif;
+    font-size: 2.92rem;
+    font-weight: 900;
+    width: 26.5rem;
+
+    margin-top: 3.3rem;
+}
+.quadrados p {
+    color: #312D64;
+    font-family: "Mulish", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+    width: 26.5rem;
+
+    margin-top: 1.9rem;
+}
+asside {
+    width: 35.1rem;
+}
+asside h1 {
+    margin: 7.8rem 0 4.3rem;
+    color: #B52184;
+    font-family: "Mulish", sans-serif;
+    font-size: 3.2rem;
+    font-weight: 900;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
