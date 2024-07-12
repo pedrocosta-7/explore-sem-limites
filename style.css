@@ -19,7 +19,6 @@ header h1 {
     font-family: "Mulish", sans-serif;
     text-align: center;
     font-size: 3.2rem;
-    font-style: normal;
     font-weight: 900;
     margin-top: 1.7rem;
 }
@@ -72,7 +71,6 @@ main {
     font-size: 2.92rem;
     font-weight: 900;
     width: 26.5rem;
-
     margin-top: 3.3rem;
 }
 .quadrados p {
@@ -94,6 +92,9 @@ main {
     font-family: "Mulish", sans-serif;
     font-size: 3.2rem;
     font-weight: 900;
+}
+.onlydesk {
+    display: none;
 }
 form {
     display: flex;
@@ -177,6 +178,125 @@ footer {
 
 }
 @media(min-width:1440px){
+header {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0 auto;
+    gap: 2.8rem;
+    width: 140.1rem;
+    padding: 0;
+    margin-bottom: 10.3rem;
+    padding-left: 10rem;
+    
+
+}
+header #imgone {
+    width: 71.9rem;
+    height: 73.2rem;
+}
+header h1{
+    width: 55.4rem;
+    color: #B52184;
+    font-size: 5.82rem;
+    font-family: "Mulish", sans-serif;
+    text-align: start;
+    font-weight: 900;
+    margin-top: 31.2rem;
+    
+
+    
+}
+header h2{
+margin-bottom: 17.9rem;
+font-size: 3.2rem;
+}
+.desk img{
+    width: 5.85rem;
+    height: 10.5rem;
+}
+
+.desk{
+    width: 55.4rem;
+    align-items: first baseline;
+   
+
+}
+.section{
+    display: flex;
+    flex-direction: row;
+    padding: 6.4rem;
+    gap: 6rem;
+    width: 133.8rem;
+    
+}
+.quadrados{
+    padding: 3.2rem;
+    width: 36.6rem;
+    border-radius: 2.4rem;
+}
+.quadrados img{
+    width: 9.7rem;
+    height: 9.7rem;
+}
+.quadrados h1{
+    font-size: 3.5rem;
+    width: 27.9rem;
+    margin-top: 4rem;
+}
+.quadrados p {
+    font-size: 1.93rem;
+    margin-top: 2.4rem;
+    width: 32.1rem;
+}
+footer {
+    font-size: 1.93rem;
+
+
+    height: 7.8rem;
+    padding: 1.6rem;
+}
+.onlydesk{
+    display: flex;
+    width: 64.4rem;
+    height: 61.2rem;
+    
+}
+.desktop {
+    display: flex;
+    flex-direction: row;
+    width: 144rem;
+    margin: 0 auto;
+    gap: 9.2rem;
+    padding-left: 10.9rem;
+
+
+
+}
+.asside{
+
+    width: 59.5rem;
+    margin: 0;
+    padding: 0;
+    
+}
+.asside h1{
+    font-size: 4.2rem;
+    margin-top: 9.5rem;
+
+}
+form input{
+    width: 59.2rem;
+    padding: 1.2rem 1.6rem 1.2rem 1.4rem;
+
+    border-radius: 1.6rem;
+    border: 0.15rem solid #312D64;
+}
+textarea{
+width: 59.2rem;
+}
+
+
+
 
 }
 
